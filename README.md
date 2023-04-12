@@ -1,22 +1,20 @@
 # data_camp-project_with_python
 
+
+## "What did we learn from this project?"
+- Trước hết, ta sẽ cần tải dữ liệu của bạn bè vào một dictionary. Điều này giúp tổ chức dữ liệu một cách dễ dàng hơn để xử lý và phân tích.
+- Sau khi tải dữ liệu vào dictionary, bạn cần chuyển đổi nó thành một DataFrame. DataFrame, là một cấu trúc dữ liệu của thư viện Pandas trong Python, giúp bạn thực hiện nhiều thao tác phân tích dữ liệu một cách hiệu quả.
+- Trước khi bắt đầu phân tích dữ liệu, bạn nên kiểm tra dữ liệu của mình bằng cách trực quan hóa nó. Điều này giúp bạn hiểu rõ hơn về cấu trúc và tính chất của dữ liệu.
+- Sau khi kiểm tra dữ liệu ban đầu, bạn sẽ cần tải thêm dữ liệu từ một tệp CSV khác để thực hiện phân tích chi tiết hơn.
+- Sau khi tải thêm dữ liệu, bạn sẽ cần lọc các bộ phim để tập trung vào phân tích của mình. Bước tiếp theo là tạo một biểu đồ phân tán để thể hiện mối quan hệ giữa các thuộc tính của các bộ phim.
+- Sau khi tạo ra biểu đồ phân tán, bạn sẽ cần đi sâu hơn vào phân tích để hiểu rõ hơn về các mối quan hệ này. Bạn sẽ cần đánh dấu các bộ phim không phải là phim chính để loại bỏ chúng khỏi phân tích.
+- Cuối cùng, bạn sẽ cần trực quan hóa dữ liệu của mình bằng cách sử dụng màu sắc để thể hiện các mối quan hệ giữa các thuộc tính khác nhau của các bộ phim.
+
 ## 1. Loading your friend's data into a dictionary
 <p>If we're going to be working with this data, we know a good place to start would be to probably start working with <code>pandas</code>. But first we'll need to create a DataFrame from scratch.</p>
 
 ## 2. Creating a DataFrame from a dictionary
 <p>To convert our dictionary <code>movie_dict</code> to a <code>pandas</code> DataFrame, we will first need to import the library under its usual alias. We'll also want to inspect our DataFrame to ensure it was created correctly. Let's perform these steps now.</p>
-
-   years  durations
-0   2011        103
-1   2012        101
-2   2013         99
-3   2014        100
-4   2015        100
-5   2016         95
-6   2017         95
-7   2018         96
-8   2019         93
-9   2020         90
 
 ## 3. A visual inspection of our data
 <p>Alright, we now have a <code>pandas</code> DataFrame, the most common way to work with tabular data in Python. Now back to the task at hand. We want to follow up on our friend's assertion that movie lengths have been decreasing over time. A great place to start will be a visualization of the data.</p>
